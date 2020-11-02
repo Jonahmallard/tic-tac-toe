@@ -21,8 +21,8 @@ html, body {
   }
   
   td {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
   }
   
   td div {
@@ -34,13 +34,13 @@ html, body {
   }
   
   tr td:nth-child(2) {
-    border-left: 4px dashed grey;
-    border-right: 4px dashed grey;
+    border-left: 4px dotted grey;
+    border-right: 4px dotted grey;
   }
   
   tr:nth-child(2) td {
-    border-top: 4px dashed grey;
-    border-bottom: 4px dashed grey;
+    border-top: 4px dotted grey;
+    border-bottom: 4px dotted grey;
   }
   
   button {
