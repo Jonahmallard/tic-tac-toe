@@ -1,6 +1,7 @@
 html, body {
     height: 100vh;
     margin: 0;
+    background-color: black;
   }
   
   * {
@@ -16,8 +17,14 @@ html, body {
   }
   
   h1 {
+    padding: 3px;
     margin-top: 0;
     margin-bottom: 50px;
+    color: white;
+    background-color: black;
+    border-style: solid;
+    border-width: medium;        
+    border-color: lime;
   }
   
   td {
@@ -34,25 +41,25 @@ html, body {
   }
   
   tr td:nth-child(2) {
-    border-left: 6px dotted lightgreen;
+    border-left: 6px dotted greenyellow;
     border-right: 6px dotted purple;
   }
   
   tr:nth-child(2) td {
-    border-top: 6px dotted black;
-    border-bottom: 6px dotted black;
+    border-top: 6px dotted lightgreen;
+    border-bottom: 6px dotted plum;
   }
   
   button {
     margin-top: 30px;
     padding: 15px;
-    background-color: black;
+    background-color: purple;
     color: white;
     border-radius: 5px;
     font-size: 20px;
   }
   
   button:hover {
-    background-color: white;
+    background-color: greenyellow;
     color: black;
   }
