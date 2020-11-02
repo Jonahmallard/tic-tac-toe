@@ -1,7 +1,7 @@
 /*----- constants -----*/
 const lookup = {
-    '1': 'purple',
-    '-1': 'lime',
+    '1': 'lime',
+    '-1': 'purple',
     'null': 'white'
   };
   
