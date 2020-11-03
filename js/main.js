@@ -31,9 +31,9 @@ const lookup = {
   
   initialize();
   
-  function handleMove(evt) {
+  function handleMove(e) {
     // obtain index of square
-    const idx = parseInt(evt.target.id.replace('sq', ''));
+    const idx = parseInt(e.target.id.replace('sq', ''));
     // check if square is available and return if not
     if (board[idx] || winner) return;
     // update state (board, turn, winner)
